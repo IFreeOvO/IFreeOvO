@@ -17,3 +17,8 @@
 ![Redis](https://img.shields.io/badge/-Redis-FFD7D5?style=flat-square&logo=Redis)
 ![MySQL](https://img.shields.io/badge/-MySQL-b6e3ff?style=flat-square&logo=MySQL)
 ![Nginx](https://img.shields.io/badge/-Nginx-green?style=flat-square&logo=Nginx)
+
+### Open source projects
+|  🎁 Projects   | ⭐ Stars  | 📚 Forks  |
+|  ----  | ----  |----  |
+| [vuepress-plugin-easy-sidebar](https://github.com/IFreeOvO/vuepress-plugin-easy-sidebar)  | ![](https://img.shields.io/github/stars/IFreeOvO/vuepress-plugin-easy-sidebar?style=flat-square&labelColor=343b41) |![](https://img.shields.io/github/forks/IFreeOvO/vuepress-plugin-easy-sidebar?style=flat-square&labelColor=343b41) |
