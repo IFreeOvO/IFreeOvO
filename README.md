@@ -22,3 +22,6 @@
 |  🎁 Projects   | ⭐ Stars  | 📚 Forks  |
 |  ----  | ----  |----  |
 | [vuepress-plugin-easy-sidebar](https://github.com/IFreeOvO/vuepress-plugin-easy-sidebar)  | ![](https://img.shields.io/github/stars/IFreeOvO/vuepress-plugin-easy-sidebar?style=flat-square&labelColor=343b41) |![](https://img.shields.io/github/forks/IFreeOvO/vuepress-plugin-easy-sidebar?style=flat-square&labelColor=343b41) |
+| [i18n-cli](https://github.com/IFreeOvO/i18n-cli)  | ![](https://img.shields.io/github/stars/IFreeOvO/i18n-cli?style=flat-square&labelColor=343b41) |![](https://img.shields.io/github/forks/IFreeOvO/i18n-cli?style=flat-square&labelColor=343b41) |
+
+
