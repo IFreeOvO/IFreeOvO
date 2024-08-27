@@ -63,7 +63,7 @@ jobs:
 
         # 同步到阿里云oss
         - name: Build
-          run: pnpm build --base /${{ secrets.DIR }}/
+          run: pnpm build --base /${{ secrets.DIR }}
         - name: setup aliyun oss
           uses: manyuanrong/setup-ossutil@master
           with:
