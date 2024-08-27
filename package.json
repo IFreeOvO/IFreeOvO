@@ -1,0 +1,22 @@
+{
+  "name": "ifreeovo-blog",
+  "version": "1.0.0",
+  "description": "个人博客",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "keywords": [],
+  "author": "ifreeOvO",
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^5.4.2",
+    "vitepress": "^1.3.4"
+  },
+  "dependencies": {
+    "fast-glob": "^3.3.2"
+  }
+}
