@@ -13,5 +13,5 @@ export default defineConfig({
   cleanUrls: true,
   lastUpdated: true,
   themeConfig,
-  
+  base: './'
 })
