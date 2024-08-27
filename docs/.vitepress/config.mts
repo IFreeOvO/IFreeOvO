@@ -10,7 +10,6 @@ export default defineConfig({
     ['link', { rel: 'stylesheet', href: './styles/vars.css' }],
     ['link', { rel: 'stylesheet', href: './styles/custom.css' }],
   ],
-  cleanUrls: true,
   lastUpdated: true,
   themeConfig,
 })
