@@ -1,8 +1,8 @@
 ## Hi I'm IFreeOvO 👋
 
-#### Read more about my [Blog](https://ifreeovo.xyz/blog/index.html)
+#### Read more about my [Blog](https://ifreeovo.github.io/IFreeOvO/)
 
-| <a href="https://ifreeovo.xyz/blog/index.html"><img align="center" src="https://github-readme-stats.vercel.app/api?username=IFreeOvO&show_icons=true&include_all_commits=true&theme=buefy&hide_border=true" alt="Anurag's github stats" /></a> | <a href="https://ifreeovo.xyz/blog/index.html"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=IFreeOvO&layout=compact&theme=buefy&hide_border=true" /></a> |
+| <a href="https://ifreeovo.github.io/IFreeOvO/"><img align="center" src="https://github-readme-stats.vercel.app/api?username=IFreeOvO&show_icons=true&include_all_commits=true&theme=buefy&hide_border=true" alt="Anurag's github stats" /></a> | <a href="https://ifreeovo.github.io/IFreeOvO/"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=IFreeOvO&layout=compact&theme=buefy&hide_border=true" /></a> |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 
 ### Things I code with

@@ -65,11 +65,11 @@ jobs:
         - name: setup aliyun oss
           uses: manyuanrong/setup-ossutil@master
           with:
-            endpoint: oss-cn-beijing.aliyuncs.com
+            endpoint: ${{ secrets.ENDPOINT }}
             access-key-id: ${{ secrets.OSS_KEY_ID }}
             access-key-secret: ${{ secrets.OSS_KEY_SECRET }}
-        - name: cp files to aliyun
-          run: ossutil cp -rf ./docs/.vitepress/dist oss://${{ secrets.bucket }}/${{ secrets.dir }}
+        - name: copy files to aliyun
+          run: ossutil cp -rf ./docs/.vitepress/dist oss://${{ secrets.BUCKET }}/${{ secrets.DIR }}
     
 
 
