@@ -48,7 +48,7 @@ jobs:
         - name: Install dependencies
           run: pnpm install --frozen-lockfile
         - name: Build
-          run: pnpm build
+          run: pnpm build --base /IFreeOvO/
 
         # 部署github-page
         - name: Setup Pages
@@ -62,6 +62,8 @@ jobs:
           uses: actions/deploy-pages@v4
 
         # 同步到阿里云oss
+        - name: Build
+          run: pnpm build --base /${{ secrets.DIR }}/
         - name: setup aliyun oss
           uses: manyuanrong/setup-ossutil@master
           with:
