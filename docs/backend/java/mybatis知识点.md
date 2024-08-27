@@ -48,12 +48,12 @@
 
 |  注解  |  对应xml  |  说明  |
 |----|----|----|
-|  @Insert  |  <insert>  |  新增sql  |
-|  @update  |  <update  |  更新sql  |
-|  @delete  |  <delete>  |   删除 |
-|   @select | <select>   |  查询  |
+|  @Insert  |  `<insert>`  |  新增sql  |
+|  @update  |  `<update>`  |  更新sql  |
+|  @delete  |  `<delete>`  |   删除 |
+|   @select | `<select>`   |  查询  |
 |  @param  |    |  参数  |
-|  @Results  |  <resultMap>  |  结果映射  |
-|  @Result  | <id><result>   | 字段映射   |
+|  @Results  |  `<resultMap>`  |  结果映射  |
+|  @Result  | `<id>`、`<result>`   | 字段映射   |
 |    |    |    |
 |    |    |    |

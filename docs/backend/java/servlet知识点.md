@@ -51,7 +51,7 @@
 ## 过滤器执行顺序
 
 * web.xml里配置的过滤器优先执行，全部执行完才执行注解过滤器
-* web.xml里的过滤器执行顺序以<filter-mapping>为准
+* web.xml里的过滤器执行顺序以`<filter-mapping>`为准
 * 注解过滤器执行顺序按照filter-name值的首字母顺序执行
 
 ## url-pattern常用写法

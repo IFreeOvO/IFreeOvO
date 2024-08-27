@@ -146,7 +146,7 @@ System.out.println(dog.age); // 使用父类的属性
 
 2.(向下转型，强制类型转换)子类引用指向父类，此时必须强制转换
 
-```
+```java
 Animal dog = new Dog();
 Dog myDog = (Dog)dog;
 myDog.run();
@@ -168,7 +168,7 @@ System.out.print(A.toString());// 与上面输出结果相同
 
 ## instanceof判断对象是否是类的实例
 
-```
+```java
 if(dog instanceof Animal) {
     
 }
@@ -510,5 +510,5 @@ while(itr.hasNext()) {
 
 1. 泛型通配符
 
-<? extends Shape> 允许子类范围
-<? super Circle> 允许Circle和Circle的父类
+`<? extends Shape>` 允许子类范围
+`<? super Circle>` 允许Circle和Circle的父类
