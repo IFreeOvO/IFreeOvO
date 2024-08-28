@@ -121,7 +121,7 @@
 
 * `scp -r /本地绝对路径 root@远程服务器ip:/远程服务器绝对路径`复制本地文件到远程服务器
 
-* `ls -alF /Users/chenzihao/.nvm//versions/node//v12.11.0/lib/node_modules` 查看node下全局指令
+* `ls -alF /Users/username/.nvm//versions/node//v12.11.0/lib/node_modules` 查看node下全局指令
 
 * `sed -i '$d' 文件名` 删除文件最后一行
 

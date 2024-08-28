@@ -9,7 +9,7 @@ pip install pyQt6
 pip install pyside6
 
 # pycharm ce配置external tools
-路径: /Users/chenzihao/anaconda3/envs/3.10/lib/python3.10/site-packages/PySide6/Designer.app
+路径: /Users/username/anaconda3/envs/3.10/lib/python3.10/site-packages/PySide6/Designer.app
 ```
 
 ## 执行程序的入口
