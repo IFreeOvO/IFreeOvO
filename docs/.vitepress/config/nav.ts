@@ -40,11 +40,6 @@ const nav: DefaultTheme.Config['nav'] = [
         link: '/frontend/flutter/index',
         activeMatch: '/frontend/flutter/',
       },
-      // {
-      //   text: 'react-native',
-      //   link: '/frontend/react-native/index',
-      //   activeMatch: '/frontend/react-native/',
-      // },
       {
         text: '前端工程化',
         link: '/frontend/engineering/index',
@@ -81,11 +76,6 @@ const nav: DefaultTheme.Config['nav'] = [
         link: '/backend/mysql',
         activeMatch: '/backend/mysql/',
       },
-      // {
-      //   text: 'postgresql',
-      //   link: '/backend/postgresql/index',
-      //   activeMatch: '/backend/postgresql/',
-      // },
       {
         text: 'flask',
         link: '/backend/flask/index',
@@ -116,6 +106,11 @@ const nav: DefaultTheme.Config['nav'] = [
         text: 'nginx',
         link: '/other/nginx/index',
         activeMatch: '/other/nginx/',
+      },
+      {
+        text: '其他',
+        link: '/other/other/index',
+        activeMatch: '/other/other/',
       },
     ],
     activeMatch: '/other/',

@@ -81,3 +81,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
     </React.StrictMode>,
 )
 ```
+
+## 参考文献
+
+[eslint-plugin-react-refresh/issue](https://github.com/ArnaudBarre/eslint-plugin-react-refresh/issues/25)
