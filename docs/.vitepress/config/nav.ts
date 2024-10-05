@@ -103,6 +103,11 @@ const nav: DefaultTheme.Config['nav'] = [
         activeMatch: '/other/git/',
       },
       {
+        text: 'npm',
+        link: '/other/npm/index',
+        activeMatch: '/other/npm/',
+      },
+      {
         text: 'nginx',
         link: '/other/nginx/index',
         activeMatch: '/other/nginx/',
@@ -118,6 +123,11 @@ const nav: DefaultTheme.Config['nav'] = [
   {
     text: '问题归纳',
     items: [
+      {
+        text: 'nodejs服务开发',
+        link: '/issues/nodejs/index',
+        activeMatch: '/issues/nodejs/',
+      },
       {
         text: 'web开发',
         link: '/issues/web/index',

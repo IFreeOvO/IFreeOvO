@@ -47,7 +47,7 @@
 
 用法例子
 
-```txt
+```xml
 <!-- demo.xsd -->
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- targetNamespace写的网址不一定要真实存在。作用只是取个空间名 -->
