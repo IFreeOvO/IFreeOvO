@@ -31,12 +31,12 @@ const Test: React.FC= () => {
 
 ## 问题分析
 
-这里虽然`Child`标签上没明确传递任何属性，但实际上`<div>12</div>`这部分代码时作为，`props.children`传递给子组件的。
-`memo`缓存之所以失效，得分析`memo`的缓存原理，它是根据比较之前的`props`和当前的`props`是否相等，如果不相等，就会重新渲染。
+这里虽然`Child`标签上没明确传递任何属性，但实际上`<div>12</div>`这部分代码，会作为`props.children`传递给子组件的。
+`memo`缓存之所以失效，得根据`memo`的缓存原理去分析，`memo`底层是通过比较之前的`props`和当前的`props`是否相等，如果不相等，就会重新渲染。
 
-那么当父组件重新渲染时，`props.children`是否改变了呢?
+那么上面例子中，点击按钮，修改状态后，触发了父组件的重新渲染，此时`props.children`是否改变了呢?
 
-这里需要分析`<div>12</div>`干了什么事。`<div>12</div>`其本质是代码编译后，会转换成`React.createElement`，然后`React.createElement`会返回`children`对象，当重新渲染时，返回的`children`对象引用变了，所以`memo`缓存失效了。弄懂问题根源，问题就好解决了，就是给`<div>12</div>`加缓存
+这里则需要分析`<div>12</div>`干了什么事。`<div>12</div>`其本质是代码编译后，会转换成`React.createElement`，然后`React.createElement`会返回`children`对象，当重新渲染时，返回的`children`对象引用变了，所以`memo`缓存失效了。弄懂问题根源，问题就好解决了，就是给`<div>12</div>`加个缓存
 
 ## 处理方式
 
