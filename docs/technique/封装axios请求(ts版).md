@@ -46,7 +46,7 @@ export interface Result<T = {}> {
     error?: string
 }
 
-export type Response<T> = [Error | AxiosError | undefined, Result<T>?]
+export type Response<T> = [Error | AxiosError, undefined] | [undefined, Result<T>]
 
 const requestMap: Map<string, AbortController> = new Map()
 
