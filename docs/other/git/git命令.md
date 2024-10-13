@@ -134,3 +134,16 @@
 * `git fetch origin pull/91/head:test`拉取远程pr到本地,  pull/91是pr界面地址栏上的参数，test是本地分支名
 
 * `git revert -m 1 提交hash`回滚merge提交
+
+* 设置代理
+
+```bash
+git config --global http.proxy  http://127.0.0.1:7890/
+git config --global https.proxy  http://127.0.0.1:7890/
+```
+
+* 查看全局配置
+
+```bash
+git config --global --list
+```

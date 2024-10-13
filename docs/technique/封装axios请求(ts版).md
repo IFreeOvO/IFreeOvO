@@ -55,7 +55,7 @@ const handleNetworkError = (err: AxiosError) => {
     const { response } = err
     // 被取消的请求，不需要提示
     if (err.name === 'CanceledError') {
-        console.error('Request canceled')
+        console.error(`'Request ${err.config?.url} canceled'`)
         return
     }
     // 跨域报错时，没有response

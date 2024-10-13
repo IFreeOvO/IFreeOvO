@@ -67,3 +67,17 @@ pip install package-name
 ```bash
 conda install package-name
 ```
+
+## 自动激活base基础环境
+
+```bash
+conda config --set auto_activate_base true
+
+```
+
+查看是否配置成功
+
+```bash
+conda config --show auto_activate_base
+
+```
