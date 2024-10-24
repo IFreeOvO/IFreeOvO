@@ -48,7 +48,7 @@ jobs:
         - name: Install dependencies
           run: pnpm install --frozen-lockfile
         - name: Build
-          run: pnpm build --base /IFreeOvO/
+          run: pnpm build:github --base /IFreeOvO/
 
         # 部署github-page
         - name: Setup Pages
