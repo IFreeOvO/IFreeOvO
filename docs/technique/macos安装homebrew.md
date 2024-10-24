@@ -67,7 +67,7 @@ source ~/.zshrc
 Warning: /opt/homebrew/bin is not in your PATH.
 ```
 
-意思是环境变量了还没设置brew。此时使用`brew`命令依然会报错，需要我们继续下一步配置。当然，控制台输出里。也提示了如何去配置：
+意思是环境变量里还没设置brew。此时使用`brew`命令依然会报错，需要我们继续下一步配置。当然，控制台输出里。也提示了如何去配置：
 ![图1](./macos使用国内镜像安装homebrew/1.jpg)
 可以按上面控制台提示的输入`- Run these commands in your terminal to add Homebrew to your PATH:`和`- Run these commands in your terminal to add the non-default Git remotes for Homebrew/brew and Homebrew/homebrew-core:`后面跟着的那一堆命令。
 
