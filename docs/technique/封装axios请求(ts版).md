@@ -39,14 +39,14 @@ export enum MethodEnum {
     DELETE = 'delete',
 }
 
-export interface Result<T = {}> {
+export interface Result<T = any> {
     code: number
     message: string | string[]
-    data?: T
+    data: T
     error?: string
 }
 
-export type Response<T> = [Error | AxiosError, undefined] | [undefined, Result<T>]
+export type Response<T = any> = [Error | AxiosError, undefined] | [undefined, Result<T>]
 
 const requestMap: Map<string, AbortController> = new Map()
 

@@ -57,11 +57,6 @@ const nav: DefaultTheme.Config['nav'] = [
         activeMatch: '/backend/java/',
       },
       {
-        text: 'python',
-        link: '/backend/python/index',
-        activeMatch: '/backend/python/',
-      },
-      {
         text: 'redis',
         link: '/backend/redis/index',
         activeMatch: '/backend/redis/',
@@ -83,6 +78,22 @@ const nav: DefaultTheme.Config['nav'] = [
       },
     ],
     activeMatch: '/backend/',
+  },
+  {
+    text: '人工智能',
+    items: [
+      {
+        text: 'python',
+        link: '/ai/python/index',
+        activeMatch: '/ai/python/',
+      },
+      {
+        text: 'LangChain',
+        link: '/ai/LangChain/index',
+        activeMatch: '/ai/LangChain/',
+      },
+    ],
+    activeMatch: '/ai/',
   },
   {
     text: '其他&工具',

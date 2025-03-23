@@ -44,9 +44,10 @@
 
 * `depcheck`检测项目未使用的依赖、缺失的依赖
 
-## 适合ts的后端项目
+## 适合后端项目
 
 * `class-transformer`实现字面量对象和类实例对象之间的转换
 * `svg-captcha` 图形验证码（node后台服务用的）
 * `nodemailer`  邮箱服务(node后台用)
-*
+* `iconv-lite`字符集编码
+* `loadtest`服务器压测工具
