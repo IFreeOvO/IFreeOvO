@@ -27,3 +27,4 @@
 |  ----  | ----  |----  |
 | [highlight-dom](https://github.com/IFreeOvO/highlight-dom)  | ![](https://img.shields.io/github/stars/IFreeOvO/highlight-dom?style=flat-square&labelColor=343b41) |![](https://img.shields.io/github/forks/IFreeOvO/highlight-dom?style=flat-square&labelColor=343b41) |
 | [i18n-cli](https://github.com/IFreeOvO/i18n-cli)  | ![](https://img.shields.io/github/stars/IFreeOvO/i18n-cli?style=flat-square&labelColor=343b41) |![](https://img.shields.io/github/forks/IFreeOvO/i18n-cli?style=flat-square&labelColor=343b41) |
+| [visual-event-tracking](https://github.com/IFreeOvO/visual-event-tracking)  | ![](https://img.shields.io/github/stars/IFreeOvO/visual-event-tracking?style=flat-square&labelColor=343b41) |![](https://img.shields.io/github/forks/IFreeOvO/visual-event-tracking?style=flat-square&labelColor=343b41) |

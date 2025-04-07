@@ -100,6 +100,8 @@ docker run --name nginx-demo -d -p 8080:80 -e WEB_HOST_URL=http://r3-8098.dev.bu
 
 * `docker login -u 用户名 私有仓库域名`登录私有仓库
 
+* `docker builder prune`清理构建缓存
+
 ## 批量操作
 
 * `docker container stop $(docker container ps -qa)`利用`docker container ps -qa`返回的容器id批量停止容器
