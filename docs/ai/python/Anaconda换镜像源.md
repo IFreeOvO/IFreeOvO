@@ -50,4 +50,15 @@ pip install -i https://pypi.tuna.tsinghua.edu.cn/simple some-package-name
   ```bash
   pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple 
   ```
+
+## 查看anaconda配置
+
+```bash
+conda config --show
+```
   
+## 删除所有第三方镜像源
+
+```bash
+conda config --remove-key channels
+```

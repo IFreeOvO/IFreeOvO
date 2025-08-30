@@ -25,7 +25,7 @@ pip freeze > requirements.txt
  pipreqs
 
 ## 或者加上 --ignore，如果本地项目有venv文件
-pipreqs --ignore venv  —force 
+pipreqs --ignore venv --force
 ```
 
 ## 如何安装项目依赖
