@@ -69,6 +69,16 @@
   * 长期记忆内容依然为模糊记忆
   * 总结摘要部分完全依赖于中间摘要LLM的能力，需要为摘要LLM分配`token`，增加成本且未限制对话长度
 
+### 注意事项
+
+`ConversationSummaryBufferMemory`会将汇总摘要的部分默认设置为`system`角色，创建系统角色信息，而其他消息则正常显示，传递的消息列表就变成：`[system, system, human, ai, human, ai, human]`。
+
+但是部分聊天模型是不支持传递多个角色为`System`的消息，并且在`langchain_community`中集成的模型并没有对多个`System`进行集中合并封装（Chat Model 未更新同步），如果直接使用可能会出现报错。
+
+所以在使用`ConversationSummaryMemory`这种类型的记忆组件时，需要检查对应的模型传递的`messages`的规则，以及`LangChain`是否对特定的模型封装进行了更新。
+
+除此之外，在某些极端的场合下，例如第一条提问回复内容比较短，第二条提问内容比较长，`ConversationSummaryMemory`执行两次`Token`长度计算，如果不异步执行任务，对话速度会变得非常慢。
+
 ## 向量存储库记忆
 
 将记忆存储在向量数据库中，并在每次调用前查询前`K`个最匹配的文档
